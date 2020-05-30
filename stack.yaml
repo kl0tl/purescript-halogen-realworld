@@ -1,0 +1,21 @@
+resolver: lts-13.26
+extra-deps:
+  - git: git@github.com:kl0tl/purescript.git
+    commit: db4d802ac0358ca989af162782ee0d3373c9b345
+    subdirs:
+      - '.'
+      - lib/purescript-ast
+      - lib/purescript-cst
+  - git: git@github.com:kl0tl/zephyr.git
+    commit: 0e909162321141a46496520443c0e312e96627db
+  - happy-1.19.9
+  - language-javascript-0.7.0.0
+  - network-3.0.1.1
+  - these-1.0.1
+  - semialign-1
+flags:
+  aeson-pretty:
+    lib-only: true
+  these:
+    assoc: false
+    quickcheck: false

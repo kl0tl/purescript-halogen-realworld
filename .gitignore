@@ -22,3 +22,5 @@ dist
 *.lock
 *.map
 package-lock.json
+.stack-work
+output/cache-db.json
